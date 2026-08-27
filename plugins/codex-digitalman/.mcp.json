@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "digitalman": {
+      "command": "node",
+      "args": ["/Users/Admin/whb/AI/codex-digitalman/packages/mcp-server/src/cli.js"]
+    }
+  }
+}

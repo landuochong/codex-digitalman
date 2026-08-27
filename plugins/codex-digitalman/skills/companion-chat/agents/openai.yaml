@@ -1,0 +1,4 @@
+interface:
+  display_name: "露米陪伴聊天"
+  short_description: "打开数字人聊天，并将结束的会话整理为 Markdown 小记"
+  default_prompt: "使用 $companion-chat 整理刚结束的数字人聊天。"

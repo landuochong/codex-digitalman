@@ -1,0 +1,25 @@
+{
+  "name": "codex-digitalman",
+  "version": "0.2.0",
+  "description": "Open a local digital-human companion and turn ended chats into Markdown notes.",
+  "author": {
+    "name": "codex-digitalman contributors"
+  },
+  "keywords": ["digital-human", "companion", "conversation-notes"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "露米数字人",
+    "shortDescription": "打开独立数字人窗口，并整理已结束的聊天",
+    "longDescription": "在本地打开数字人陪伴窗口，并在用户明确请求后，将最近一次已结束会话整理为 Markdown 小记。当前包为开发骨架。",
+    "developerName": "codex-digitalman contributors",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Read"],
+    "defaultPrompt": [
+      "打开露米休息室。",
+      "整理刚才结束的数字人聊天。",
+      "删除最近一次聊天原始记录。"
+    ],
+    "brandColor": "#CF7067"
+  }
+}
